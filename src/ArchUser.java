@@ -12,12 +12,16 @@ public class ArchUser extends Person {
 
 	@Override
 	public void askQuestion() {
-		System.out.println("Do you like Linux?");
+		System.out.println("What Linux distro do you use?");
 		iUseArchBTW();
 	}
 
 	@Override
 	public void answerQuestion() {
 		System.out.println("I use Arch Linux.");
+	}
+
+	public ArchUser(String name, String occupation) {
+		super(name, "Arch Linux user");
 	}
 }
