@@ -9,11 +9,11 @@ public abstract class Person {
 	}
 	
 	public void giveName() {
-		System.out.println(myName);
+		System.out.println("My name is " + myName);
 	}
 	
 	public void whatDoYouDo() {
-		System.out.println(occupation);
+		System.out.println("I am a " + occupation);
 		
 	}
 	
@@ -21,12 +21,8 @@ public abstract class Person {
 	
 	abstract void answerQuestion();
 	
-	
-	
 	@Override
 	public String toString() {
 		return "Person [myName=" + myName + ", occupation=" + occupation + "]";
 	}
-	
-
 }
