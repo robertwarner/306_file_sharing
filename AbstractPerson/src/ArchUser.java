@@ -3,7 +3,8 @@ public class ArchUser extends Person {
 
 	@Override
 	public void whatDoYouDo() {
-		System.out.println("I use Arch Linux.");
+		System.out.println("I am a " + this.occupation);
+		System.out.println("I use Arch Linux, by the way.");
 	}
 
 	@Override
@@ -18,7 +19,6 @@ public class ArchUser extends Person {
 	}
 
 	public ArchUser(String name, String occupation) {
-		// user input for occupation doesn't matter
-		super(name, "Arch Linux user");
+		super(name, occupation);
 	}
 }

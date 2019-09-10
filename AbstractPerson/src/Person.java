@@ -1,8 +1,8 @@
 
 public abstract class Person {
 	
-	private String myName;
-	private String occupation;
+	protected String myName;
+	protected String occupation;
 	
 	public void askName() {
 		System.out.println("What is your name?");

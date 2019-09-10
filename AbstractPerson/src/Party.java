@@ -25,6 +25,10 @@ public class Party {
 		//people.add(new Introvert("Greta Garbo", "Actress"));
 		//people.add(new Extrovert("Scooby Doo", "Private Eye"));
 		//people.add(new PetOwner("Frazier", "Psychiatrist", "dog", "Eddie"));
+		
+		people.add(new CatPerson("Anne", "veterinarian"));
+		people.add(new ArchUser("Jeff", "code tester"));
+		people.add(new Computer("Isengard", "server"));
 		}
 	
 	/**

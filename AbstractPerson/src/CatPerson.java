@@ -14,8 +14,8 @@ public class CatPerson extends Person {
 								};
 	
 
-	public CatPerson() {
-		super();
+	public CatPerson(String name, String occupation) {
+		super(name, occupation);
 	}
 	
 	
